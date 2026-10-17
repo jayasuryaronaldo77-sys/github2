@@ -2,7 +2,7 @@ name: sample pipeine
 
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
       - 
 jobs:
   sample:
