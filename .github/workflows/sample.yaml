@@ -1,0 +1,13 @@
+name: sample pipeine
+
+on:
+  push:
+    branches: ["main"]
+      - 
+jobs:
+  sample:
+    runs-on: [self-hosted, wsl-ubuntu]
+
+    steps:
+       - name: sample step
+         run: echo "sample pipeline" 
